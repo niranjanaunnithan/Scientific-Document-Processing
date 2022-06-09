@@ -1,4 +1,4 @@
-# Scientific-Document-Parsing
+# Scientific-Document-Processing
 
 Install dependencies:
 
