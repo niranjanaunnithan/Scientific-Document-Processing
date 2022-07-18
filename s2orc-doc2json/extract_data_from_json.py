@@ -34,6 +34,7 @@ def extract_text(data, section):
         references = data["pdf_parse"]["bib_entries"]
         for ref in references.items():
             raw_text = ref[1]["raw_text"]
+            raw_text = raw_text.replace("- ","")
             content.append(raw_text)
     elif section == "body":
         abstract = data["pdf_parse"]["abstract"]
