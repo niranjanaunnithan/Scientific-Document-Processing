@@ -27,3 +27,13 @@ abstract
 body
 
 references
+
+# Remove older versions of a file in a given folder (Deduplication)
+
+Run Script deduplicate.py 
+
+The folders can contain multiple versions of the same research paper due to revisions. This script maintains the latest version of the research paper and reomoves all old versions from a given folder.
+
+Usage:
+
+python deduplicate.py -d <directory_name>
